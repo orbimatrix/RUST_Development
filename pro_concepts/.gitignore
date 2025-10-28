@@ -1,1 +1,11 @@
-target
+# Ignore Rust build and dependency artifacts
+/target/
+**/*.rs.bk
+
+# Ignore backup files created by rustfmt
+**/*.orig
+
+
+# Ignore logs + other system files
+*.log
+.DS_Store
