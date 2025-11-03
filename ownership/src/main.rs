@@ -21,6 +21,13 @@ fn main() {
 
     println!("The length of '{s1}' is {len}.");
 
+    let some_data=String::from("Hello");
+
+    let some_value=some_data.clone();
+
+    
+    println!("some_data = {some_data}, some_value = {some_value}");
+
 }
 
 fn takes_ownership(some_string: String) {
